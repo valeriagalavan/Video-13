@@ -1,0 +1,46 @@
+form{
+	width:25%;
+	border:1px solid #FFDAB9;
+	margin:20px;
+	padding:20px 80px;
+	
+}
+
+label {
+	font-size:12px;
+	display:block;
+	width:100%;	
+}
+
+
+textarea{
+	resize:both;
+}
+
+
+input, textarea{
+	margin-bottom:20px;
+	width:100%;
+	padding:10px;
+	box-sizing: border-box;
+	border: 1px #FFDAB9;
+}
+
+input:focus{
+	border:1px solid #FFDAB9;
+}
+
+input [type="submit"]{
+		margin-bottom:0;
+		background:#1668c4;
+		color:#fff;
+		border:none;
+}
+
+input [type="submit"]:hover{
+	 background:#FFDAB9;
+	 cursor:pointer;
+}
+
+
+
